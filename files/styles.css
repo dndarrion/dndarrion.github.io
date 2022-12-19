@@ -57,7 +57,7 @@ nav {
   background-color: rgb(65, 36, 173);
 }
 nav > button {
-  color: rgb(202, 200, 200);
+  color: #c8c8c8;
 }
 nav > button:hover {
   cursor: pointer;
@@ -65,6 +65,9 @@ nav > button:hover {
 nav > span {
   color: grey;
   margin: 0px 20px 0px 20px;
+}
+#links-button {
+  color: #ff00bb;
 }
 .panel-placeholder {
   position: relative;
@@ -103,10 +106,17 @@ nav > span {
 .about {
   display: none;
 
-  min-height: 300px;
+  height: 100px;
   margin: 5px;
   background-color: rgb(40, 58, 116);
   padding: 20px;
   border-radius: 5px;
   color: rgb(105, 230, 249);
+  text-align: center;
+}
+.about > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
