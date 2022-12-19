@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Licorice&family=Quicksand&display=swap");
+
+* {
+  font-family: Quicksand, Arial;
+  font-size: medium;
+}
+html {
+  height: 100%;
+}
+body {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  max-width: 500px;
+  height: 90%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.652);
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.bio > p {
+  text-align: center;
+}
+.name {
+  color: blue;
+  font-weight: 900;
+  font-size: large;
+}
+.uname {
+  color: grey;
+  font-weight: 100;
+  font-size: smaller;
+}
+.bio > img {
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px rgb(0, 132, 255) solid;
+  padding: 5px;
+}
+nav {
+  padding: 15px 20px;
+  border-radius: 40px;
+  border: 1px solid;
+}
+nav > button:hover {
+  cursor: pointer;
+}
+nav > span {
+  color: grey;
+  margin: 0px 20px 0px 20px;
+}
+.panel-placeholder {
+  position: relative;
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.panels {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(135, 135, 135, 0.652);
+  background-color: #fff;
+}
+.links > li {
+  margin: 30px 0px 30px 20px;
+}
+.divider {
+  margin: auto !important;
+  width: 90%;
+  height: 1px;
+  background-color: gray;
+}
+.links > li > p > span {
+  position: relative;
+  top: -5px;
+}
+.icons {
+  margin-right: 10px;
+  font-size: x-large;
+}
+.about {
+  display: none;
+
+  min-height: 300px;
+}
